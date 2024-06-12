@@ -173,7 +173,7 @@ public:
         cout << "Gravity: " << Gravity << "N" << endl;
 
         int select;
-        cout << "Select 1, if you have density; select 2 if you don't have density.";
+        cout << "Select 1, if you have density; select 2 if you don't have density:";
         cin >> select;
         if (select == 1) {
             cout << "You have density" << endl;
@@ -225,7 +225,7 @@ public:
         cout << "Mass: " << mass << "kg" << endl;
 
         int select;
-        cout << "Select 1, if you have acceleration; Select 2 if you don't have acceleration.";
+        cout << "Select 1, if you have acceleration; Select 2 if you don't have acceleration:";
         cin >> select;
         if (select == 1) {
             cout << "You have acceleration" << endl;
@@ -279,7 +279,7 @@ public:
         cout << "Mass: " << mass << "kg" << endl;
 
         int select;
-        cout << "Select 1, if you have velocity; select 2 if you don't have velocity.";
+        cout << "Select 1, if you have velocity; select 2 if you don't have velocity:";
         cin >> select;
         if (select == 1) {
             cout << "You have velocity" << endl;
@@ -352,7 +352,7 @@ public:
         cout << "Number of coils: " << number_of_coils << endl;
 
         int select;
-        cout << "Select 1, if you have Area; select 2 if you don't have Area.";
+        cout << "Select 1, if you have Area; select 2 if you don't have Area:";
         cin >> select;
         if (select == 1) {
             cout << "You have Area" << endl;
@@ -390,7 +390,7 @@ public:
         cout << "Mass: " << mass << "kg" << endl;
 
         int select;
-        cout << "Select 1, if you have velocity; select 2 if you don't have velocity.";
+        cout << "Select 1, if you have velocity; select 2 if you don't have velocity:";
         cin >> select;
         if (select == 1) {
             cout << "You have velocity" << endl;
